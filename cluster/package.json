@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-cluster-worker-examples",
+  "version": "1.0.0",
+  "description": "Ví dụ về Cluster và Worker Threads trong Node.js",
+  "main": "cluster-example.js",
+  "scripts": {
+    "cluster": "node cluster-example.js",
+    "worker": "node worker-thread-example.js",
+    "worker:error": "node worker-error-handling.js",
+    "worker:crash": "node worker-crash-demo.js",
+    "worker:safe": "node worker-template-safe.js",
+    "compare:cluster": "node comparison-example.js cluster",
+    "compare:worker": "node comparison-example.js worker"
+  },
+  "keywords": [
+    "nodejs",
+    "cluster",
+    "worker-threads",
+    "multiprocessing",
+    "multithreading"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+

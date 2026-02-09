@@ -1,0 +1,21 @@
+{
+  "name": "node-cluster-example",
+  "version": "1.0.0",
+  "description": "Example demonstrating Node.js cluster module",
+  "main": "cluster-example.js",
+  "scripts": {
+    "start": "node cluster-example.js",
+    "test": "node load-test.js",
+    "calculate": "node worker-calculation.js"
+  },
+  "keywords": [
+    "cluster",
+    "nodejs",
+    "multiprocessing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

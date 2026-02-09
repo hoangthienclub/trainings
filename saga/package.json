@@ -1,0 +1,28 @@
+{
+  "name": "saga-pattern-example",
+  "version": "1.0.0",
+  "description": "Ví dụ về Saga Pattern trong Node.js",
+  "main": "examples/orchestration.js",
+  "type": "module",
+  "scripts": {
+    "start": "node examples/orchestration.js",
+    "choreography": "node examples/choreography.js",
+    "start:db": "node examples/orchestrationWithDB.js",
+    "choreography:db": "node examples/choreographyWithDB.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [
+    "saga",
+    "pattern",
+    "microservices",
+    "distributed-transactions"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

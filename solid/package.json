@@ -1,0 +1,21 @@
+{
+  "name": "solid-principles-examples",
+  "version": "1.0.0",
+  "description": "Ví dụ về SOLID Design Principles trong Node.js",
+  "main": "index.js",
+  "scripts": {
+    "srp-bad": "node 1-srp-bad.js",
+    "srp-good": "node 1-srp-good.js",
+    "ocp-bad": "node 2-ocp-bad.js",
+    "ocp-good": "node 2-ocp-good.js",
+    "lsp-bad": "node 3-lsp-bad.js",
+    "lsp-good": "node 3-lsp-good.js",
+    "isp-bad": "node 4-isp-bad.js",
+    "isp-good": "node 4-isp-good.js",
+    "dip-bad": "node 5-dip-bad.js",
+    "dip-good": "node 5-dip-good.js"
+  },
+  "keywords": ["solid", "design-patterns", "nodejs", "oop"],
+  "author": "",
+  "license": "MIT"
+}

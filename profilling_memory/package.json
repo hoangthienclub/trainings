@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-memory-profiling",
+  "version": "1.0.0",
+  "description": "Examples of memory profiling in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "basic": "node basic-memory-usage.js",
+    "heap": "node heap-statistics.js",
+    "snapshot": "node heap-snapshot.js",
+    "leak": "node memory-leak-example.js",
+    "monitor": "node memory-monitor.js"
+  },
+  "keywords": [
+    "nodejs",
+    "memory",
+    "profiling",
+    "performance"
+  ],
+  "author": "",
+  "license": "ISC"
+}
